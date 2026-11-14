@@ -1,15 +1,11 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chat Assistant</title>
+    <title>L'Oréal Beauty Advisor</title>
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
@@ -19,12 +15,24 @@
     <div class="page-wrapper">
       <!------- Header / Branding ------->
       <header class="site-header">
-        <h1 class="site-title">Smart Product Advisor</h1>
+        <img src="img/loreal-logo.png" alt="L'Oréal Paris" class="site-logo" />
+        <h1 class="site-title">Beauty Advisor</h1>
+        <p class="site-tagline">
+          Your personal guide to skincare, haircare &amp; makeup. Because you're
+          worth it.
+        </p>
       </header>
 
       <!------- Chat Area ------->
       <main>
         <section class="chatbox">
+          <div class="chips">
+            <button type="button" class="chip">Routine for dry skin</button>
+            <button type="button" class="chip">Best mascara for volume</button>
+            <button type="button" class="chip">Fix frizzy hair</button>
+            <button type="button" class="chip">Foundation for oily skin</button>
+          </div>
+
           <div id="chatWindow" class="chat-window">
             <!-- messages will be appended here via JS -->
           </div>
@@ -49,7 +57,7 @@
 
       <!------- Footer Links ------->
       <footer class="site-footer">
-        <p>&copy; 2025 Company Name. All rights reserved.</p>
+        <p>&copy; 2026 L'Oréal Beauty Advisor. Student project.</p>
         <nav>
           <!-- These URLs are placeholders -->
           <a href="#">Privacy Policy</a>
